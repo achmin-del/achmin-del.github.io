@@ -1,0 +1,391 @@
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Achmad Amin | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome untuk ikon (CDN) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header & Navigation -->
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <h1>
+            Achmad
+            <span>Amin</span>
+          </h1>
+        </div>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h2>
+              Hello, I'm
+              <span>Achmad Amin</span>
+            </h2>
+            <h3>Frontend Developer</h3>
+            <p>
+              Passionate about creating clean, user-friendly web experiences
+              with HTML, CSS, and JavaScript.
+            </p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">View My Work</a>
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <!-- Placeholder for hero image or avatar -->
+            <div class="avatar-container">
+              <div class="avatar-placeholder">AA</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <h2>About Me</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm a passionate frontend developer with a keen eye for detail and
+              a dedication to creating responsive, user-friendly websites.
+              Currently focusing on mastering the fundamentals of web
+              development with HTML, CSS, and JavaScript.
+            </p>
+            <p>
+              My goal is to build attractive, functional web interfaces that
+              provide great user experiences across all devices.
+            </p>
+          </div>
+          <div class="about-details">
+            <div class="about-detail">
+              <i class="fas fa-user"></i>
+              <div>
+                <h4>Name</h4>
+                <p>Achmad Amin</p>
+              </div>
+            </div>
+            <div class="about-detail">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p>achmadamin@example.com</p>
+              </div>
+            </div>
+            <div class="about-detail">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Location</h4>
+                <p>Jakarta, Indonesia</p>
+              </div>
+            </div>
+            <div class="about-detail">
+              <i class="fas fa-graduation-cap"></i>
+              <div>
+                <h4>Education</h4>
+                <p>Computer Science Graduate</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2>My Skills</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="skills-content">
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-html5"></i>
+            </div>
+            <h3>HTML5</h3>
+            <div class="skill-bar">
+              <div class="skill-progress" data-percent="85">
+                <span class="percent">85%</span>
+              </div>
+            </div>
+            <p>Semantic markup, forms, media elements</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-css3-alt"></i>
+            </div>
+            <h3>CSS3</h3>
+            <div class="skill-bar">
+              <div class="skill-progress" data-percent="75">
+                <span class="percent">75%</span>
+              </div>
+            </div>
+            <p>Flexbox, Grid, animations, responsive design</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-js"></i>
+            </div>
+            <h3>JavaScript</h3>
+            <div class="skill-bar">
+              <div class="skill-progress" data-percent="60">
+                <span class="percent">60%</span>
+              </div>
+            </div>
+            <p>DOM manipulation, event handling, fetch API</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2>My Projects</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="projects-content">
+          <!-- Project Card 1 -->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="https://via.placeholder.com/400x250" alt="Project 1" />
+            </div>
+            <div class="project-info">
+              <h3>To-Do List App</h3>
+              <p>
+                A simple to-do list application built with vanilla JavaScript
+                allowing users to add, delete and mark tasks as completed.
+              </p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="fas fa-globe"></i>
+                  Live Demo
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fab fa-github"></i>
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card 2 -->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="https://via.placeholder.com/400x250" alt="Project 2" />
+            </div>
+            <div class="project-info">
+              <h3>Weather App</h3>
+              <p>
+                A weather application that fetches and displays current weather
+                data from a public API.
+              </p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="fas fa-globe"></i>
+                  Live Demo
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fab fa-github"></i>
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card 3 -->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="https://via.placeholder.com/400x250" alt="Project 3" />
+            </div>
+            <div class="project-info">
+              <h3>Calculator</h3>
+              <p>
+                An interactive calculator with basic arithmetic operations and a
+                clean, user-friendly interface.
+              </p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="fas fa-globe"></i>
+                  Live Demo
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fab fa-github"></i>
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contact Me</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h3>Email</h3>
+                <p>achmadamin@example.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h3>Phone</h3>
+                <p>+62 812 3456 7890</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h3>Location</h3>
+                <p>Kalimatan Timur, Indonesia</p>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+              <a href="#" class="social-link">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <input type="text" id="name" placeholder="Your Name" required />
+                <span class="form-focus"></span>
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Your Email"
+                  required
+                />
+                <span class="form-focus"></span>
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="subject"
+                  placeholder="Subject"
+                  required
+                />
+                <span class="form-focus"></span>
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+                <span class="form-focus"></span>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h3>
+              Achmad
+              <span>Amin</span>
+            </h3>
+          </div>
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="footer-social">
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <p>&copy; 2025 Achmad Amin. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
